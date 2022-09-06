@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="treść zadań">
+      <UniqueIdentifier>{de114b90-7825-46e9-802d-361cfd6a6ba4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="zadania.txt">
+      <Filter>treść zadań</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Priorytety operatorów.txt">
+      <Filter>treść zadań</Filter>
+    </ClCompile>
+    <ClCompile Include="Zadania do zrobienia.txt">
+      <Filter>treść zadań</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

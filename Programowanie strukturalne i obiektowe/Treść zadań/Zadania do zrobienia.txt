@@ -1,0 +1,75 @@
+
+
+
+Zadanie 22
+Napisz program który wyœwietli kolejne liczby ci¹gu Fibonacciego. Iloœæ liczb wczytaj z klawiatury.
+
+Zadanie 23
+Napisz program który wczyta 5 liczb i wyœwietli je w odwrotnej kolejnoœci. Wykorzystaj tablice.
+
+Zadanie 24
+U¿ytkownik podaje ciag liczb.
+Program wypisuje liczby nie parzyste z podanego ci¹gu w kolejnoœci ODWROTNEJ ni¿ podana. Wykorzystaj tablice.
+
+Zadanie 25
+Napisz program który pobiera ci¹g liczb jednocyfrowych od u¿ytkownika (0 koñczy ci¹g) 
+a nastêpnie wyœwietla statystyki ile razy wyst¹pi³a dana cyfra.
+
+Zadanie 26
+U¿ytkownik podaje ci¹g liczb oraz liczbê k
+ZnajdŸ liczby podzielne przez k
+
+Zadanie 27
+Napisz program który wykorzystuje sito Erastotenesa do wyznaczania liczb pierwszych.
+
+
+Zadanie 32
+Program pyta siê u¿ytkownika ile chce podaæ liczb (max 50).
+Nastêpnie wczytuje te liczby. Potem wypisuje tylko liczby parzyste w kolejnoœci odwrotnej ni¿ poda³ u¿ytkownik. 
+
+Zadanie 33
+Pobieramy dwa ci¹gi liczb od usera. I teraz program wypisuje ILE liczb z pierwszego ci¹gu JEST w drugim ci¹gu (ale jak liczba jest 2x to liczymy ja raz)
+A potem ile NIE JEST
+
+Zadanie 34
+U¿ytkownik podaje ci¹g liczb.
+ZnajdŸ najwiêksz¹ liczbê oraz znajdŸ INDEX najwiêkszej liczby.
+
+Zadanie 35
+Napisz program który pobierze ci¹g liczb a nastêpnie wyœwietli wszystkie z nich które s¹ wiêksze od ich œredniej.
+
+Zadanie 36
+Suma kodów ASCII w zdaniu. 
+Poczytaj o funkcji getline.
+
+Zadanie 37
+Napisz program który wczytan¹ liczbê wyœwietli w formacie binarnym, ósemkowym i szesnastkowym
+
+Zadanie 38
+Napisz program który wyœwietli wszystkie dzielniki wczytanej liczby.
+np 24:
+1, 2, 3, 4, 6, 8, 12, 24
+ 
+Zadanie 39
+W skokach narciarskich mamy 5cioro sêdziów. Ka¿dy punktuje skok. Noty skrajne s¹ odrzucane (czyli najmniejsza i najwiêksza ocena jest odrzucana). Nastêpnie noty poœrednie s¹ sumowane.
+Napisz program, który wczytuje 5 not od sêdziów i wylicza ile zawodnik dosta³ punktów.
+np:
+16
+18
+24
+19
+20
+OdpowiedŸ: 57 (gdy¿ nota 16 jest odrzucana bo jest najmniejsza, oraz nota 24 jest odrzucana bo jest najwiêksza. 18+19+20=57).
+
+Zadanie 40
+W strukturze jest imiê, nazwisko, i data urodzenia. A w dacie urodzenia jest: dzieñ, miesi¹c, rok.
+ZnajdŸ osobê w tablicy struktur, która urodzi³a siê najwczeœniej.
+
+Zadanie 41
+Napisz program który sprawdza czy podana liczba jest pierwsza.
+
+Zadanie 42
+Napisz program który obliczy silnie wczytanej liczby. Wykorzystaj rekurencjê.
+
+Zadanie 43
+Napisz program który wyœwietli posortowany rosn¹co ci¹g liczb wczytanych przez u¿ytkownika.

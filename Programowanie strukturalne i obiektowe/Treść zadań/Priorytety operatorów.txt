@@ -1,0 +1,18 @@
+
+Priorytety:
+()										nawiasy
+++ --									postfix
+++ -- ~ ! sizeof + -					prefix oraz jednoargumentowe
+(typ)									konwersja
+* / %
++ -
+<< >>									przesuniêcia bitowe
+> >= < <= == !=
+&										bitowe AND
+^										bitowe XOR
+|										bitowe OR
+&&										logiczne AND
+||										logiczne OR
+?:										operator warunkowy
+= *= /= %= += -= >>= <<= &= ^= |=
+,

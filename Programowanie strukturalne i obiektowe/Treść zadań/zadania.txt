@@ -1,0 +1,183 @@
+Zadanie 1
+Program pyta o cenę netto zakupów i wylicza cene brutto.
+
+Zadanie 2
+Procent bankowy. Podajemy kwotę, oprocentowanie roczne i ilość lat.
+Program wylicza kwotę po upływie podanych lat.
+
+Zadanie 3
+Napisz program który wczyta dwie liczby i wyświetli większą z nich.
+
+Zadanie 4
+Napisz program który wczyta liczbę i wyświetli informację czy jest ona liczbą parzystą.
+
+Zadanie 5
+Oblicz wysokość podatku dochodowego jesli:
+* podatek do kwoty 6000zł - 0%
+* podatek od kwoty powyżej 6000zl - 5%
+* podatek od kwoty powyżej 20000zl - 10%
+* podatek od kwoty powyżej 50000zl - 15%
+np. Użytkownik podaje, ze zarobił 70tys:
+od 20tys liczymy 15%
+od 30tys liczymy 10%
+od 14tys liczymy 5%
+a 6 tys z zerowym podatkiem
+
+Zadanie 6
+Napisz program który wczyta trzy liczby i wyświetli największą.
+
+Zadanie 7
+Zbadaj czy z podanych 3 boków da się utworzyć trójkąt.
+
+Zadanie 8
+Zbadaj czy z podanych 3 boków da się utworzyć trójkąt prostokątny. 
+Poszukaj informacji o funkcji sqrt.
+
+Zadanie 9
+Napisz program który policzy miejsca zerowe funkcji kwadratowej. Wczytaj potrzebne dane z klawiatury.
+
+Zadanie 10
+Napisz program który wczyta dwie liczby oraz operację arytmetyczną a następnie wykona podane działanie.
+
+Zadanie 11
+Napisz program który wczyta liczbę a następnie wyświetli w jednej linii tyle gwiazdek.
+np.
+Podaj liczbę: 6
+******
+
+Zadanie 12
+Napisz program, który wypiszę wszystkie liczby naturalne parzyste mniejsze od podanej liczby.
+
+Zadanie 13
+Użytkownik podaje początkową liczbę oraz krok, a program liczy w dół i wypisuje wszystkie liczby dodanie.
+Np: początkowa: 11, krok: 3. Program wypiszę: 11 8 5 2
+
+Zadanie 14
+Napisz program który narysuje kwadrat z gwiazdek o rozmiarze wczytanym z klawiatury.
+Np. Podaj rozmiar: 4
+****
+****
+****
+****
+
+Zadanie 15
+Napisz program który narysuje trójkąt z gwiazdek o rozmiarze wczytanym z klawiatury.
+Np. Podaj rozmiar: 4
+*
+**
+***
+****
+
+Zadanie 16
+Napisz program który narysuje trójkąt z gwiazdek o rozmiarze wczytanym z klawiatury.
+Np. Podaj rozmiar: 4
+    *
+   ***
+  *****
+ *******
+
+Zadanie 17
+Sumę i średnią podanego ciągu liczb zakończonego zerem.
+
+Zadanie 18
+Program wczytuje ciąg liczb od użytkownika zakończone zerem.
+Program zlicza ile razy kolejna liczba była mniejsza od poprzedniej.
+
+Zadanie 19
+Gra w zgadywanie.
+Program losuje liczbę od 1 do 100, a my mamy ja zgadnąć.
+I w kółko pyta użytkownika jaka to liczba.
+Podajemy liczbę, a program mówi, czy za duża, za mała, czy to ta.
+
+Zadanie 20
+Napisz program który obliczy NWD liczb wczytanych z klawiatury.
+
+Zadanie 21
+Napisz program który obliczy NWW liczb wczytanych z klawiatury.
+
+Zadanie 22
+Napisz program który wyświetli kolejne liczby ciągu Fibonacciego. Ilość liczb wczytaj z klawiatury.
+
+Zadanie 23
+Napisz program który wczyta 5 liczb i wyświetli je w odwrotnej kolejności. Wykorzystaj tablice.
+
+Zadanie 24
+Użytkownik podaje ciag liczb.
+Program wypisuje liczby nie parzyste z podanego ciągu w kolejności ODWROTNEJ niż podana. Wykorzystaj tablice.
+
+Zadanie 25
+Napisz program który pobiera ciąg liczb jednocyfrowych od użytkownika (0 kończy ciąg) 
+a następnie wyświetla statystyki ile razy wystąpiła dana cyfra.
+
+Zadanie 26
+Użytkownik podaje ciąg liczb oraz liczbę k
+Znajdź liczby podzielne przez k
+
+Zadanie 27
+Napisz program który wykorzystuje sito Erastotenesa do wyznaczania liczb pierwszych.
+
+Zadanie 28
+Program zlicza ilość wystąpień litery 'a'.
+
+Zadanie 29
+Program zlicza ile jest małych liter w podanym ciągu znaków
+
+Zadanie 30
+Program wyświetla wyraz pobrany z konsoli wspak.
+np podamy: Karol
+odp: laroK
+
+Zadanie 31
+Napisz program, który sprawdza czy podany wyraz jest palindromem.
+Palindrom to wyraz, który jak czytamy od tyłu to jest taki sam jakby go czytać od przodu np "kajak".
+
+Zadanie 32
+Program pyta się użytkownika ile chce podać liczb (max 50).
+Następnie wczytuje te liczby. Potem wypisuje tylko liczby parzyste w kolejności odwrotnej niż podał użytkownik. 
+
+Zadanie 33
+Pobieramy dwa ciągi liczb od usera. I teraz program wypisuje ILE liczb z pierwszego ciągu JEST w drugim ciągu (ale jak liczba jest 2x to liczymy ja raz)
+A potem ile NIE JEST
+
+Zadanie 34
+Użytkownik podaje ciąg liczb.
+Znajdź największą liczbę oraz znajdź INDEX największej liczby.
+
+Zadanie 35
+Napisz program który pobierze ciąg liczb a następnie wyświetli wszystkie z nich które są większe od ich średniej.
+
+Zadanie 36
+Suma kodów ASCII w zdaniu. 
+Poczytaj o funkcji getline.
+
+Zadanie 37
+Napisz program który wczytaną liczbę wyświetli w formacie binarnym, ósemkowym i szesnastkowym
+
+Zadanie 38
+Napisz program który wyświetli wszystkie dzielniki wczytanej liczby.
+np 24:
+1, 2, 3, 4, 6, 8, 12, 24
+ 
+Zadanie 39
+W skokach narciarskich mamy 5cioro sędziów. Każdy punktuje skok. Noty skrajne są odrzucane (czyli najmniejsza i największa ocena jest odrzucana). Następnie noty pośrednie są sumowane.
+Napisz program, który wczytuje 5 not od sędziów i wylicza ile zawodnik dostał punktów.
+np:
+16
+18
+24
+19
+20
+Odpowiedź: 57 (gdyż nota 16 jest odrzucana bo jest najmniejsza, oraz nota 24 jest odrzucana bo jest największa. 18+19+20=57).
+
+Zadanie 40
+W strukturze jest imię, nazwisko, i data urodzenia. A w dacie urodzenia jest: dzień, miesiąc, rok.
+Znajdź osobę w tablicy struktur, która urodziła się najwcześniej.
+
+Zadanie 41
+Napisz program który sprawdza czy podana liczba jest pierwsza.
+
+Zadanie 42
+Napisz program który obliczy silnie wczytanej liczby. Wykorzystaj rekurencję.
+
+Zadanie 43
+Napisz program który wyświetli posortowany rosnąco ciąg liczb wczytanych przez użytkownika.
