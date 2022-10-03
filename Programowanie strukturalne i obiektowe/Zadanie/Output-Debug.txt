@@ -1,0 +1,14 @@
+﻿'Zadanie.exe' (Win32): Loaded 'C:\Jakub Gad\Zadanie\Debug\Zadanie.exe'. Symbols loaded.
+'Zadanie.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. 
+'Zadanie.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. 
+'Zadanie.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. 
+'Zadanie.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. 
+'Zadanie.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. 
+'Zadanie.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. 
+The thread 0xbd8 has exited with code 0 (0x0).
+'Zadanie.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. 
+'Zadanie.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. 
+'Zadanie.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. 
+The thread 0x2518 has exited with code 0 (0x0).
+The thread 0x26c4 has exited with code 0 (0x0).
+The program '[6872] Zadanie.exe' has exited with code 0 (0x0).
