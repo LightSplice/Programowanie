@@ -4,9 +4,15 @@ struct Point
 {
     int x, y;
 };
+
 double calculatedDistance(int a, int b)
 {
     double distance = sqrt(a * a + b * b);
+    return distance;
+}
+double calculatedDistance(Point p)
+{
+    double distance = sqrt(p.x *p.x + p.y * p.y);
     return distance;
 }
 
@@ -31,12 +37,8 @@ void CoordinateTestVersion2()
     std::cout << "Podaj x: ";
     std::cin >> userPoint.x;
 
-    std::cout << '\n';
-
     std::cout << "Podaj y: ";
     std::cin >> userPoint.y;
-
-    std::cout << '\n';
 
     double distance = calculatedDistance(userPoint.x, userPoint.y);
     std::cout << "Odleglosc to: " << distance << '\n';
@@ -47,3 +49,22 @@ int main()
     CoordinateTestVersion1();
     CoordinateTestVersion2();
 }
+
+struct Person
+{
+    std::string name;
+    std::string surname;
+    int age;
+    int hight;
+};
+
+Person p1;
+//p1.name
+
+std::string nameTab[5];
+std::string surnameTab[5];
+int ageTab[5];
+int hightTab[5];
+
+Person pTab[5];
+//pTab[1].name = "Ala";
