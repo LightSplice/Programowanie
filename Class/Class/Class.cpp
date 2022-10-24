@@ -10,12 +10,12 @@ Napisaæ klasê (oraz kod testuj¹cy) opisuj¹cy osobê.
 #include <iostream>
 #include <ctime>
 
-class Dane
+class Osoba
 {
 public:
-    void Inf()
+    void Adult()
     {
-#pragma region PersonInformations
+
         std::cout << "Name: ";
         std::cin >> Name;
         std::cout << "Last Name: ";
@@ -24,16 +24,25 @@ public:
         std::cin >> Country;
         std::cout << "Domicile: ";
         std::cin >> Domicile;
+
+    }
+
+    void NewBorn()
+    {
+        std::cout << "Name: ";
+        std::cin >> Name;
+        std::cout << "Last Name: ";
+        std::cin >> LastName;
+        std::cout << "Country: ";
+        std::cin >> Country;
+
+    }
+    void Person()
+    {
         std::cout << "Date of Birth: ";
         std::cin >> DateOfBirth;
 
-#pragma endregion
-
-#pragma region Age
         time_t now = time(0);
-
-        std::cout << "Number of second since January 1,1970 is:: "
-            << now << std::endl;
 
         tm* ltm = new tm;
         localtime_s(ltm, &now);
@@ -43,12 +52,23 @@ public:
 
         Wiek = 1900 + ltm->tm_year - DateOfBirth;
         std::cout << "Wiek to: " << Wiek << '\n';
-        if (Wiek < 18)
+        if (Wiek > 18)
+        {
             std::cout << "This person is an adult.\n";
+            Adult();
+        }
+        if (Wiek == 0)
+        {
+            std::cout << "This person is a NewBorn.\n";
+            NewBorn();
+        }
         else
+        {
             std::cout << "This person is not an adult.\n";
-        delete ltm;
-#pragma endregion
+        }
+        
+    delete ltm;
+
     }
 private:
 
@@ -60,8 +80,12 @@ protected:
 };
 int main()
 {
-    Dane Maciek;
-    Maciek.Inf();
+    Osoba person;
+    person.Person();
+    std::cout << '\n';
+    Osoba person1;
+    person1.Person();
+
 
     /*std::cout << "Month: " << 1 + ltm->tm_mon << std::endl;
     std::cout << "Day: " << ltm->tm_mday << std::endl;
