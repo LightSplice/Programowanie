@@ -65,6 +65,7 @@ public:
         else
         {
             std::cout << "This person is not an adult.\n";
+            Adult();
         }
         
     delete ltm;
