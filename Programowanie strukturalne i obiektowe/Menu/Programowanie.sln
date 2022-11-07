@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csharp", "Csharp\Csharp.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C++", "C++", "{FC032C3B-DE4E-46A8-B001-3E3CF5E78C16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstObjectProgramCS", "FirstObjectProgramCS\FirstObjectProgramCS.csproj", "{763C082A-DFEB-4CF0-BDEA-964335A53C44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstObjectProgramCS", "FirstObjectProgramCS\FirstObjectProgramCS.csproj", "{763C082A-DFEB-4CF0-BDEA-964335A53C44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

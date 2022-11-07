@@ -6,12 +6,10 @@ namespace FirstObjectProgramCS
     {
         static void Main(string[] args)
         {
-            int x;
+            int x; 
             x = 15;
 
             Person p;
-            p = new Person();
-            p.ShowInfo();
         }
     }
 }
