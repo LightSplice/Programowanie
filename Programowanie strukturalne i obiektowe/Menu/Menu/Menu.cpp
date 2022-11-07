@@ -62,6 +62,7 @@ void Zad1()
 
 void Zad2()
 {
+	std::cout << "Enter a number: ";
 	int num;
 	std::cin >> num;
 	int number1 = 0;
@@ -74,7 +75,7 @@ void Zad2()
 		number1 = number2;
 		number2 = i;
 	}
-	std::cout << number1 << ',' << number2;
+	std::cout << number1 << ',' << number2 << '\n';
 }
 
 void Zad3()
