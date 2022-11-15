@@ -60,10 +60,35 @@ namespace ConsoleApp
             int max = arrayOfNumbers[0];
             foreach (int number in arrayOfNumbers)
             {
-                if (number > max);
-                max = number;
+                if (number > max)
+                {
+                    max = number;
+                }
             }
             Console.WriteLine("Max w tablicy to: " + max);
         }
+        
+        public void TestObjectArrayCollection()
+        {
+            Number[] arrayWidthObjectNumbers = new Number[5];
+            //arrayWidthObjectNumbers[2].ourNumber = 7;
+
+            Random random = new Random();
+            for (int i = 0; i < arrayWidthObjectNumbers.Length; i++)
+            {
+                arrayWidthObjectNumbers[i] = new Number();
+                arrayWidthObjectNumbers[i].ourNumber = random.Next() % 100;
+            }
+
+            foreach (Number number in arrayWidthObjectNumbers)
+            {
+                Console.Write($"{number.ourNumber} ,");
+            }
+        }
+    }
+
+    class Number
+    {
+        public int ourNumber;
     }
 }

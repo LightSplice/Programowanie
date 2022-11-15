@@ -8,6 +8,8 @@ namespace ConsoleApp
         {
             TestCollection testCollection = new TestCollection();
             testCollection.TestArrayCollection();
+
+
         }
     }
 }
