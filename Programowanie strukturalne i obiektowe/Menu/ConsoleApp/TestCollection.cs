@@ -84,6 +84,16 @@ namespace ConsoleApp
             {
                 Console.Write($"{number.ourNumber} ,");
             }
+
+            int max = arrayWidthObjectNumbers[0].ourNumber;
+            foreach (Number number in arrayWidthObjectNumbers)
+            {
+                if (number.ourNumber > max)
+                {
+                    max = number.ourNumber;
+                }
+                Console.Write("Max w tablicy to: " + max);
+            }
         }
     }
 
