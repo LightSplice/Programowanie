@@ -8,8 +8,11 @@ namespace ConsoleApp
         {
             TestCollection testCollection = new TestCollection();
             testCollection.TestArrayCollection();
+            testCollection.TestObjectArrayCollection();
+            testCollection.ListCollection();
 
-
+            TestListCollection testListCollection = new TestListCollection();
+            testListCollection.FirstTest();
         }
     }
 }

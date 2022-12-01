@@ -95,10 +95,67 @@ namespace ConsoleApp
                 Console.Write("Max w tablicy to: " + max);
             }
         }
-    }
 
+        public void TestGeneric()
+        {
+            Number[] numbers = new Number[5];
+            NumberFloat[] floatNumbers = new NumberFloat[5];
+            NumberDouble[] doubleNumbers = new NumberDouble[5];
+
+            NumberGeneric<int> intGenericNumber = new NumberGeneric<int>();
+            intGenericNumber.ourNumber = 7;
+
+            NumberGeneric<int>[] intGenericNumbers = new NumberGeneric<int>[5];
+            NumberGeneric<float>[] floatGenericNumbers = new NumberGeneric<float>[5];
+            NumberGeneric<double>[] doubleGenericNumbers = new NumberGeneric<double>[5];
+            NumberGeneric<byte>[] byteGenericNumbers = new NumberGeneric<byte>[5];
+
+            byteGenericNumbers[2].ourNumber = 7;
+
+            int[] t = new int[5];
+            //praca na t na 5-elementowa
+        }
+
+        public void ListCollection()
+        {
+            //int[] tab = new int[10];
+            //pracuje na tablicy
+
+            List<int> listOfInts = new List<int>();
+            Console.WriteLine("Kolekcja ma elementow: " + listOfInts.Count);
+            listOfInts.Add(5);
+            Console.WriteLine("Kolekcja ma elementow: " + listOfInts.Count);
+            Console.WriteLine("Zerowy element kolekcji: " + listOfInts[0]);
+            listOfInts.Add(5);
+            Console.WriteLine("Pierwszy element kolekcji: " + listOfInts[1]);
+            for (int i = 0; i < new Random().Next(1, 100); i++)
+            {
+                listOfInts.Add(new Random().Next(1, 100));
+            }
+            foreach (int item in listOfInts)
+            {
+                Console.WriteLine("element: " + item);
+            }
+        }
+    }
+    
     class Number
     {
         public int ourNumber;
     }
+
+    class NumberFloat
+    {
+        public int ourNumber;
+    }
+
+    class NumberDouble
+    {
+        public int ourNumber;
+    }
+
+    class NumberGeneric<T>
+    {
+        public T ourNumber;
+    } 
 }
