@@ -12,18 +12,20 @@ namespace ConsoleApp
         public string surname;
         public int age;
         public string essa;
+        public int height;
 
-        public Person(string name, string surname, int age, string essa)
+        public Person(string name, string surname, int age, string essa, int height)
         {
             this.name = name;
             this.surname = surname;
             this.age = age;
             this.essa = essa;
+            this.height = height;
         }
 
         public void Info()
         {
-            Console.WriteLine(name + " " + surname + " " + age + "lat" + " " + essa);
+            Console.WriteLine(name + " " + surname + " " + age + " " + "lat" + ", " + essa + ", " + height);
         }
     }
 }
