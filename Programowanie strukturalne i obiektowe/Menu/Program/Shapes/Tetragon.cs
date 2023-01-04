@@ -23,7 +23,7 @@ namespace ShapeConsoleApp.Shapes
             this.name = name;
         }
 
-        public double Area()
+        public virtual double Area()
         {
             return -1;
         }
