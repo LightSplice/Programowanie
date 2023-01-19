@@ -38,7 +38,10 @@ namespace LotOfTasks
             {
                 Console.WriteLine("Liczba nie jest liczbą pierwszą");
             }
-            
+        }
+        public void Exercise2()
+        {
+
         }
     }
 }
