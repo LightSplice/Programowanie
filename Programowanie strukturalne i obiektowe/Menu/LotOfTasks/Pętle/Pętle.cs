@@ -12,9 +12,13 @@ namespace LotOfTasks
             Console.WriteLine("Podaj liczbę pierwszą");
             int number = int.Parse(Console.ReadLine());
 
-            for (int i = number; i <= Math.Sqrt(i); i++) 
+            if (number < 2)
             {
-                if (i % 2 == 0)
+                Console.WriteLine("Liczba nie może być mniejsza od 2");
+            }
+            for (int i = 2; i * i <= number; i++)
+            {
+                if (number % i == 0)
                 {
                     Console.WriteLine("Liczba nie jest liczbą pierwszą");
                 }
