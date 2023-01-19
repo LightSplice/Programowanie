@@ -9,6 +9,7 @@ namespace LotOfTasks
     {
         public void Exercise1()
         {
+            bool Pierwsza = true;
             Console.WriteLine("Podaj liczbę pierwszą");
             int number = int.Parse(Console.ReadLine());
 
@@ -16,17 +17,28 @@ namespace LotOfTasks
             {
                 Console.WriteLine("Liczba nie może być mniejsza od 2");
             }
+            
             for (int i = 2; i < number; i++)
             {
                 if (number % i == 0)
                 {
-                    Console.WriteLine("Liczba nie jest liczbą pierwszą");
+                    Pierwsza = false;
                 }
                 else
                 {
-                    Console.WriteLine("Liczba jest liczbą pierwszą");
+                    Pierwsza = true;
                 }
             }
+
+            if (Pierwsza == true)
+            {
+                Console.WriteLine("Liczba jest liczbą pierwszą");
+            }
+            else if (Pierwsza == false)
+            {
+                Console.WriteLine("Liczba nie jest liczbą pierwszą");
+            }
+            
         }
     }
 }
