@@ -41,7 +41,31 @@ namespace LotOfTasks
         }
         public void Exercise2()
         {
+            string word = Console.ReadLine();
+            bool Palindrome = true;
+            
+            for (int i = 0; i < word.Length / 2; i++)
+            {
+                if (word[i] != word[word.Length - i - 1])
+                {
+                    Palindrome = false;
+                }
+                else
+                {
+                    Palindrome = true;
+                }
+                    
+            }
 
+            if (Palindrome == true)
+            {
+                Console.WriteLine("To jest palindrom");
+            }
+
+            else
+            {
+                Console.WriteLine("To nie jest palindorm");
+            }
         }
     }
 }
