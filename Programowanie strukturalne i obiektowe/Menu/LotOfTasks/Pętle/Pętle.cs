@@ -41,23 +41,18 @@ namespace LotOfTasks
         }
         public void Exercise2()
         {
+            Console.WriteLine("Podaj wyraz");
             string word = Console.ReadLine();
-            bool Palindrome = true;
-            
-            for (int i = 0; i < word.Length / 2; i++)
+            string reverseWord = "";
+
+            for (int i = word.Length - 1; i >= 0; i--)
             {
-                if (word[i] != word[word.Length - i - 1])
-                {
-                    Palindrome = false;
-                }
-                else
-                {
-                    Palindrome = true;
-                }
-                    
+                reverseWord = reverseWord + word[i];
             }
 
-            if (Palindrome == true)
+            Console.WriteLine("Od tyłu: " + reverseWord);
+
+            if (word == reverseWord)
             {
                 Console.WriteLine("To jest palindrom");
             }
