@@ -41,7 +41,7 @@ namespace LotOfTasks
         }
         public void Exercise2()
         {
-            Console.WriteLine("Podaj wyraz");
+            Console.WriteLine("Podaj wyraz: ");
             string word = Console.ReadLine();
             string reverseWord = "";
 
@@ -60,6 +60,39 @@ namespace LotOfTasks
             else
             {
                 Console.WriteLine("To nie jest palindorm");
+            }
+        }
+        public void Exercise3()
+        {
+            bool letters;
+            Console.WriteLine("Podaj słowo: ");
+            string word = Console.ReadLine();
+            Console.WriteLine("Podaj drugie słowo: ");
+            string word2 = Console.ReadLine();
+
+            if (word.Length != word2.Length)
+            {
+                do
+                {
+                    Console.WriteLine("Podaj słowo: ");
+                    word = Console.ReadLine();
+                    Console.WriteLine("Podaj drugie słowo: ");
+                    word2 = Console.ReadLine();
+
+                    if (word.Length != word2.Length)
+                    {
+                        letters = false;
+                    }
+                    else
+                        letters = true;
+                } while (letters == false);
+            }
+
+            Console.WriteLine(word + " , " + word2);
+
+            for (int i = word.Length; ; )
+            {
+
             }
         }
     }

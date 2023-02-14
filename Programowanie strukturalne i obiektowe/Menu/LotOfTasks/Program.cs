@@ -39,7 +39,7 @@ namespace LotOfTasks
             if (select == 3)
             {
                 Pętle exercise = new Pętle();
-                exercise.Exercise2();
+                exercise.Exercise3();
 
             }
         }
