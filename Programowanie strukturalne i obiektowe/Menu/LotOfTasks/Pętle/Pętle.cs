@@ -89,7 +89,7 @@ namespace LotOfTasks
             }
 
             Console.WriteLine(word + " , " + word2);
-
+            
             for (int i = word.Length; ; )
             {
 
