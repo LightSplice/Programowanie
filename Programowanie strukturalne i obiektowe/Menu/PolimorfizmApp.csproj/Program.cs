@@ -33,7 +33,7 @@ namespace PolimorfizmApp
             InfoAbout(cat);
 
             Point point = new Point(4, 9);
-            InfoAbout(point);
+            //InfoAbout(point);
 
         }
 

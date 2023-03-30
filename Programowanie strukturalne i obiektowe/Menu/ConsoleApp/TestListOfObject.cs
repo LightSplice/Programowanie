@@ -52,7 +52,7 @@ namespace ConsoleApp
             order by age desc, height
             */
 
-            List<Person> ppp = listOfPeople.Join(listOfPeoplePegi18, x => x.age, x18 => x18.age (Person p, person p18) => new Person(person.name, Person p18) p18.name);
+            //List<Person> ppp = listOfPeople.Join(listOfPeoplePegi18, x => x.age, x18 => x18.age, (Person p, Person p18) => new Person(person.name, person p18) p18.name);
 
             //List<Person> sortedListByAge = listOfPeople.OrderBy(x => x.age).ToList();
             List<Person> sortedListByAgeAndHeight = listOfPeople.OrderByDescending(x => x.age).ThenBy(x => x.height).ToList();
