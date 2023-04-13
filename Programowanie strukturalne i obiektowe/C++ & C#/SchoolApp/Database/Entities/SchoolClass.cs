@@ -12,6 +12,4 @@ namespace SchoolApp.Database.Entities
 
         public string Name { get; set; }
     }
-
-
 }

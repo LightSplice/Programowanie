@@ -11,6 +11,14 @@ namespace SchoolApp
     {
         static void Main(string[] args)
         {
+            School school = new School();
+            school.Run();
+        }
+    }
+}
+    /*
+        static void Main(string[] args)
+        {
             SchoolDatabase schoolDatabase = new SchoolDatabase();
 
             SchoolClass schoolClass = new SchoolClass();
@@ -47,11 +55,11 @@ namespace SchoolApp
                 Console.WriteLine(item.Id + " " + item.Name);
             }
 
-            /*
-             select *
-             from SchoolClasses
-             where Nazwa like '%C'
-            */
+            
+             //select *
+             //from SchoolClasses
+             //where Nazwa like '%C'
+            
             List<SchoolClass> classWithC = new List<SchoolClass>();
             foreach (SchoolClass item in schoolDatabase.SchoolClasses)
             {
@@ -67,7 +75,7 @@ namespace SchoolApp
 
             classWithC = schoolDatabase
                 .SchoolClasses
-                .Where((SchoolClass sc) => /*return */sc.Name.EndsWith("C"))
+                .Where((SchoolClass sc) => sc.Name.EndsWith("C")) // return
                 .ToList();
             Console.WriteLine("Klasy kończące się na literę 'C' uzyskane za pomocą metody LINQ");
             foreach (var item in classWithC)
@@ -75,5 +83,4 @@ namespace SchoolApp
                 Console.WriteLine(item.Id + " " + item.Name);
             }
         }
-    }
-}
+    }*/
