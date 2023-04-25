@@ -20,5 +20,6 @@ namespace SchoolApp.Database
         }
 
         public DbSet<SchoolClass> SchoolClasses { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }
