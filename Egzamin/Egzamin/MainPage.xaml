@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Egzamin.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            BackgroundColor="Beige">
+            
+            <Label Text="Gra w kości. Autor Jakub Gad"
+                   BackgroundColor="Brown"
+                   TextColor="White"
+                   FontSize="Title"
+                   Padding="5"/>
+            
+            <Button Text="RZUĆ KOŚĆMI"
+                    BackgroundColor="Chocolate"
+                    HorizontalOptions="Center"
+                    Clicked="Rzut_koscmi"/>
+
+            <FlexLayout>
+                <Image Source="question.jpg"
+                       Margin="6"
+                       x:Name="rzut0"/>
+                <Image Source="question.jpg"
+                       Margin="6"
+                       x:Name="rzut1"/>
+                <Image Source="question.jpg"
+                       Margin="6"
+                       x:Name="rzut2"/>
+                <Image Source="question.jpg"
+                       Margin="6"
+                       x:Name="rzut3"/>
+                <Image Source="question.jpg"
+                       Margin="6"
+                       x:Name="rzut4"/>
+            </FlexLayout>
+            
+            <Label Text="Wynik tego losowania: "
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"
+                   x:Name="WynikLosTekst"/>
+            
+            <Label Text="Wynik gry: "
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"
+                   x:Name="WynikGryTekst"/>
+
+            <Button Text="RESETUJ WYNIK"
+                    BackgroundColor="Chocolate"
+                    HorizontalOptions="Center"
+                    Clicked="Reset"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
